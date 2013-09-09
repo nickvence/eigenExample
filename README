@@ -3,3 +3,12 @@ This program is created as an example for the following
 -- using auto_ptr
 -- using Cairo: a vector graphics library
 
+Version 1
+    Hard code Eigen data
+    Create rotation matrix
+    Rotate triangle 
+
+Version 2
+    Load from a file
+    Use auto_ptr
+    Display via Cairo
