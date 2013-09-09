@@ -1,2 +1,3 @@
 make
 ./vec
+rm vec
