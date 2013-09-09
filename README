@@ -1,0 +1,5 @@
+This program is created as an example for the following
+-- using Eigen: a matrix library
+-- using auto_ptr
+-- using Cairo: a vector graphics library
+
