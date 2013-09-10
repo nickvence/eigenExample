@@ -1,3 +1,3 @@
 make
-./vec
+./vec star1.tsv
 rm vec
