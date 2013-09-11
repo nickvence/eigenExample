@@ -1,10 +1,7 @@
 OBJECTS=
-CFLAGS =-I/usr/local/include/eigen3 -I/opt/local/include/cairo -g -Wall -O1
-LDLIBS = -L/opt/local/lib -lcairo
+CFLAGS =-I/usr/local/include/eigen3 -g -Wall -O1
+LDLIBS = 
 CC= g++
 
-vec: $(OBJECTS)
+eigenExample: $(OBJECTS)
 	$(CC) $(CFLAGS) $(LDFLAGS) -o $@ $@.cc
-
-cairo: $(OBJECTS)
-	$(CC) $(CFLAGS) $(LDFLAGS) $(LDLIBS) -o $@ $@.cc
